@@ -1,4 +1,3 @@
-from llama_index.core import VectorStoreIndex,SimpleDirectoryReader
+import os
 
-
-documents = SimpleDirectoryReader()
+print(os.getenv("OPENAI_API_KEY"))
